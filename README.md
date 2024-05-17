@@ -12,33 +12,24 @@ Documenting the code and preparing the POSTMAN collection.
 Installation
 Clone the repository:
 
-bash
-Copy code
-Navigate to the project directory:
+1. Navigate to the project directory:
+2. cd contact-management-api
 
-bash
-Copy code
-cd contact-management-api
 Install dependencies:
 
-bash
-Copy code
-npm install
-Usage
+1. npm install
+
+Usage 
 Running the Server
 To start the server, run:
 
-bash
-Copy code
-npm start
+1. npm start
 The server will start listening on port 3000 by default.
 
 Testing
 To run the unit tests, use:
 
-bash
-Copy code
-npm test
+1. npm test
 
 API Endpoints
 The API provides the following endpoints:
