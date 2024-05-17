@@ -2,49 +2,49 @@
 
 This is a simple Contact Management API built with Node.js and TypeScript. It provides endpoints for creating, retrieving, updating, and deleting contacts. Data is stored in memory for simplicity, and no authentication logic is implemented.
 
-**Solution and Desicions**
+**Solution and Decisions**
 
 **Step 1:** Setup the Project
 
 First, let's set up a new Node.js project with TypeScript.
 
-1. Initialize a new Node.js project:
-mkdir contacts-api
-cd contacts-api
+1. Initialize a new Node.js project:<br>
+mkdir contacts-api<br>
+cd contacts-api<br>
 npm init -y - create a new package.json file
 
-2. Install the required dependencies:
-npm install express body-parser
+2. Install the required dependencies:<br>
+npm install express body-parser<br>
 npm install --save-dev typescript @types/node @types/express ts-node nodemon jest @types/jest
 
-3. Initialize TypeScript configuration:
+3. Initialize TypeScript configuration:<br>
 npx tsc --init 
 
-4. Create the project structure:
-mkdir src
-mkdir src/routes
-mkdir src/controllers
-mkdir src/models
+4. Create the project structure:<br>
+mkdir src<br>
+mkdir src/routes<br>
+mkdir src/controllers<br>
+mkdir src/models<br>
 mkdir src/assets
 
 **Step 2:** Implement the API
 
-1. Create a simple in-memory data store for contacts.
+1. Create a simple in-memory data store for contacts.<br>
 src/models/contact.ts:
 
-2. Create the contact controller with CRUD operations.
+2. Create the contact controller with CRUD operations.<br>
 src/controllers/contactController.ts:
 
-3. Create routes for the contact endpoints.
+3. Create routes for the contact endpoints.<br>
 src/routes/contactRoutes.ts:
 
-4. Setup the Express server.
+4. Setup the Express server.<br>
 src/index.ts:
 
 
 **Step 3:** Add Unit Tests
 
-1. Create tests for the contact controller.
+1. Create tests for the contact controller.<br>
 src/test/contactController.test.ts:
 
 2. Update package.json scripts to include test scripts:
